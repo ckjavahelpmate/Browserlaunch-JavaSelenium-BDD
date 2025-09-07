@@ -1,6 +1,7 @@
 package com.hooks;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import com.utils.CleanUtils;
 import com.utils.DriverManager;
@@ -24,7 +25,9 @@ public class Hooks {
 
 	@Before
 	public void beforeScenario(Scenario scenario) {
-		DriverManager.launchBrowser(new ChromeDriver());
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless=new"); // mod
+		DriverManager.launchBrowser(new ChromeDriver(options));
 		System.out.println(getFeatureName(scenario) + scenario.getName() + " :: Test Started");
 		ExtentReportManager.createTest(getFeatureName(scenario) + scenario.getName());
 	}
@@ -65,7 +68,5 @@ public class Hooks {
 
 		return feature;
 	}
-	
-	
 
 }
