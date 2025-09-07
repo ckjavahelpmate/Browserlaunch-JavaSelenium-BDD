@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-07T23:56:26 IST" name="CucumberSuite" finished-at="2025-09-07T23:57:15 IST" duration-ms="49603">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-07T23:56:26 IST" name="Parallel-Suite" finished-at="2025-09-07T23:57:15 IST" duration-ms="49603">
+      <class name="com.testrunners.FoodRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:56:26 IST" name="setUpClass" finished-at="2025-09-07T23:56:26 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@175b9425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:56:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:35 IST" duration-ms="8908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Swiggy App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:56:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:44 IST" duration-ms="9184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Swiggy App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:56:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:53 IST" duration-ms="8525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Swiggy App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:56:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:00 IST" duration-ms="7737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zomato App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:57:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:08 IST" duration-ms="7976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zomato App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:57:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:15 IST" duration-ms="6330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zomato App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunners.FoodRunner@223d2c72]" started-at="2025-09-07T23:57:15 IST" name="tearDownClass" finished-at="2025-09-07T23:57:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunners.FoodRunner -->
+      <class name="com.testrunners.SocialMediaRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:56:26 IST" name="setUpClass" finished-at="2025-09-07T23:56:26 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@175b9425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:56:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:34 IST" duration-ms="7698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Facebook App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:56:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:41 IST" duration-ms="7341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Facebook App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:56:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:47 IST" duration-ms="6483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Facebook App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:56:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:54 IST" duration-ms="6343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:56:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:00 IST" duration-ms="6704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:57:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:08 IST" duration-ms="7628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunners.SocialMediaRunner@36902638]" started-at="2025-09-07T23:57:08 IST" name="tearDownClass" finished-at="2025-09-07T23:57:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunners.SocialMediaRunner -->
+      <class name="com.testrunners.EcommerceRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:56:26 IST" name="setUpClass" finished-at="2025-09-07T23:56:26 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@175b9425]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:56:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:34 IST" duration-ms="8142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:56:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:41 IST" duration-ms="6804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:56:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:48 IST" duration-ms="7030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:56:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:56:56 IST" duration-ms="8311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flipkart App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:56:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:08 IST" duration-ms="11811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flipkart App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:57:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T23:57:15 IST" duration-ms="7292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flipkart App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunners.EcommerceRunner@1189dd52]" started-at="2025-09-07T23:57:15 IST" name="tearDownClass" finished-at="2025-09-07T23:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunners.EcommerceRunner -->
+    </test> <!-- Parallel-Suite -->
+  </suite> <!-- CucumberSuite -->
+</testng-results>
