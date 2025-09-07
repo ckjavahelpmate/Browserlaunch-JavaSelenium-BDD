@@ -7,8 +7,8 @@
 	<test name="Parallel-Suite" parallel="classes" thread-count="3">
 		<classes>
 			<class name="com.testrunners.EcommerceRunner" />
-			<!-- <class name="com.testrunners.SocialMediaRunner" />
-			<class name="com.testrunners.FoodRunner" /> -->
+			<class name="com.testrunners.SocialMediaRunner" />
+			<class name="com.testrunners.FoodRunner" /> 
 		</classes>
 	</test>
 </suite>

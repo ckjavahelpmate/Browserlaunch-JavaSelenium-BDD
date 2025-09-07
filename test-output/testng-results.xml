@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-08T03:10:44 IST" name="Default suite" finished-at="2025-09-08T03:11:28 IST" duration-ms="44196">
+  <suite started-at="2025-09-08T03:46:16 IST" name="Default suite" finished-at="2025-09-08T03:46:49 IST" duration-ms="32770">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-08T03:10:44 IST" name="Default test" finished-at="2025-09-08T03:11:28 IST" duration-ms="44196">
+    <test started-at="2025-09-08T03:46:16 IST" name="Default test" finished-at="2025-09-08T03:46:49 IST" duration-ms="32770">
       <class name="com.testrunners.EcommerceRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:10:44 IST" name="setUpClass" finished-at="2025-09-08T03:10:44 IST" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:16 IST" name="setUpClass" finished-at="2025-09-08T03:46:16 IST" duration-ms="609" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@427ae189]]>
+                <![CDATA[org.testng.TestRunner@78d71df1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:10:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:10:51 IST" duration-ms="6443" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:46:22 IST" duration-ms="5114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:10:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:10:56 IST" duration-ms="5370" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:46:26 IST" duration-ms="4732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:10:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:11:09 IST" duration-ms="12482" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:46:31 IST" duration-ms="5050" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at com.genericlibrary.GenericFunctions.verifyPageTitle(GenericFunctions.java:17)
-at com.stepdefinitions.CommonSteps.verifyPageTitleToBe(CommonSteps.java:29)
+at com.stepdefinitions.CommonSteps.verifyPageTitleToBe(CommonSteps.java:27)
 at ✽.Verify page title to be "Amazon.com. Spend less. Smile "(file:///C:/CK/CK_Personal_Projects/BrowserLaunch-JavaSelenium-BDD/src/test/resources/features/ecommerce/Amazon.feature:17)
 ]]>
             </full-stacktrace>
@@ -87,7 +87,7 @@ at ✽.Verify page title to be "Amazon.com. Spend less. Smile "(file:///C:/CK/CK
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:11:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:11:15 IST" duration-ms="6437" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:46:36 IST" duration-ms="4364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@ at ✽.Verify page title to be "Amazon.com. Spend less. Smile "(file:///C:/CK/CK
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:11:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:11:22 IST" duration-ms="6418" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:46:40 IST" duration-ms="4395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@ at ✽.Verify page title to be "Amazon.com. Spend less. Smile "(file:///C:/CK/CK
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:11:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:11:28 IST" duration-ms="6334" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T03:46:48 IST" duration-ms="8185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@ at ✽.Verify page title to be "Amazon.com. Spend less. Smile "(file:///C:/CK/CK
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:11:28 IST" name="tearDownClass" finished-at="2025-09-08T03:11:28 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunners.EcommerceRunner@6ed3ccb2]" started-at="2025-09-08T03:46:48 IST" name="tearDownClass" finished-at="2025-09-08T03:46:49 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

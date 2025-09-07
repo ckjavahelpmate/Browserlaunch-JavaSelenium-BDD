@@ -1,7 +1,5 @@
 package com.stepdefinitions;
 
-import java.time.Duration;
-
 import com.hooks.BaseClass;
 
 import io.cucumber.java.en.And;
@@ -18,7 +16,7 @@ public class CommonSteps extends BaseClass {
 	@And("Wait for {int} seconds")
 	public void waitForSeconds(Integer seconds) {
 		try {
-			Thread.sleep(Duration.ofSeconds(seconds));
+			Thread.sleep(seconds*100);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
