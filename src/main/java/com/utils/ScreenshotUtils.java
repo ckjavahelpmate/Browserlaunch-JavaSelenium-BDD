@@ -15,11 +15,11 @@ public class ScreenshotUtils {
 		String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
 
 		String filePath = "screenshots/" + scenarioName + "_" + timestamp + ".png";
-
+		File destFile = null ;
 		try {
 			TakesScreenshot ts = (TakesScreenshot) DriverManager.getDriver();
 			File srcFile = ts.getScreenshotAs(OutputType.FILE);
-			File destFile = new File(filePath);
+			destFile = new File(filePath);
 
 			destFile.getParentFile().mkdirs();
 
@@ -29,6 +29,6 @@ public class ScreenshotUtils {
 			e.printStackTrace();
 		}
 
-		return filePath;
+		return destFile.getAbsolutePath();
 	}
 }

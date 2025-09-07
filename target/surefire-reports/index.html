@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CucumberSuite" class="navigator-link">
-              <span class="suite-name border-passed">CucumberSuite</span>
+              <span class="suite-name border-failed">CucumberSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods,   18 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CucumberSuite" class="hide-methods failed suite-CucumberSuite"> (hide)</a> <!-- hide-methods failed suite-CucumberSuite -->
+                      <a href="#" panel-name="suite-CucumberSuite" class="show-methods failed suite-CucumberSuite"> (show)</a> <!-- show-methods failed suite-CucumberSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CucumberSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.EcommerceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Amazon App&quot;)">runScenario("Verify page title", "Amazon App")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CucumberSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,11 +117,6 @@
                     <div class="method-list-content passed suite-CucumberSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.FoodRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Swiggy App&quot;)">runScenario("Verify page title", "Swiggy App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.EcommerceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Flipkart App&quot;)">runScenario("Verify page title", "Flipkart App")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -128,67 +137,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.SocialMediaRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Facebook App&quot;)">runScenario("Verify page title", "Facebook App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.FoodRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Zomato App&quot;)">runScenario("Verify page title", "Zomato App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.SocialMediaRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Google App&quot;)">runScenario("Verify page title", "Google App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.FoodRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Zomato App&quot;)">runScenario("Verify page title", "Zomato App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.FoodRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Swiggy App&quot;)">runScenario("Verify page title", "Swiggy App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.EcommerceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Flipkart App&quot;)">runScenario("Verify page title", "Flipkart App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.SocialMediaRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Facebook App&quot;)">runScenario("Verify page title", "Facebook App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.SocialMediaRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Google App&quot;)">runScenario("Verify page title", "Google App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.SocialMediaRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Facebook App&quot;)">runScenario("Verify page title", "Facebook App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.FoodRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Swiggy App&quot;)">runScenario("Verify page title", "Swiggy App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.EcommerceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Amazon App&quot;)">runScenario("Verify page title", "Amazon App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.SocialMediaRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Google App&quot;)">runScenario("Verify page title", "Google App")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="com.testrunners.FoodRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify page title&quot;, &quot;Zomato App&quot;)">runScenario("Verify page title", "Zomato App")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CucumberSuite -->
@@ -203,6 +152,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CucumberSuite" class="panel CucumberSuite">
+          <div class="suite-CucumberSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testrunners.EcommerceRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Amazon App&quot;)">
+                  </a> <!-- runScenario("Verify page title", "Amazon App") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify page title","Amazon App")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Amazon.com. Spend less. Smile ] but found [Amazon.com. Spend less. Smile more.]
+	at com.genericlibrary.GenericFunctions.verifyPageTitle(GenericFunctions.java:17)
+	at com.stepdefinitions.CommonSteps.verifyPageTitleToBe(CommonSteps.java:29)
+	at ✽.Verify page title to be &quot;Amazon.com. Spend less. Smile &quot;(file:///C:/CK/CK_Personal_Projects/BrowserLaunch-JavaSelenium-BDD/src/test/resources/features/ecommerce/Amazon.feature:17)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CucumberSuite-class-failed -->
           <div class="suite-CucumberSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -259,152 +232,6 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Amazon App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Amazon App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Amazon App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CucumberSuite-class-passed -->
-          <div class="suite-CucumberSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testrunners.FoodRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Swiggy App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Swiggy App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Swiggy App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Zomato App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Zomato App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Zomato App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Zomato App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Zomato App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Zomato App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Swiggy App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Swiggy App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Swiggy App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Swiggy App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Swiggy App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Swiggy App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Zomato App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Zomato App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Zomato App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CucumberSuite-class-passed -->
-          <div class="suite-CucumberSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testrunners.SocialMediaRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Facebook App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Facebook App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Facebook App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Google App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Google App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Google App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Facebook App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Facebook App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Facebook App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Google App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Google App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Google App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Facebook App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Facebook App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Facebook App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify page title&quot;, &quot;Google App&quot;)">
-                  </a> <!-- runScenario("Verify page title", "Google App") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify page title","Google App")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-CucumberSuite-class-passed -->
         </div> <!-- panel CucumberSuite -->
@@ -420,8 +247,6 @@
   &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Parallel-Suite&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.testrunners.EcommerceRunner&quot;/&gt;
-      &lt;class name=&quot;com.testrunners.SocialMediaRunner&quot;/&gt;
-      &lt;class name=&quot;com.testrunners.FoodRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Parallel-Suite --&gt;
 &lt;/suite&gt; &lt;!-- CucumberSuite --&gt;
@@ -435,7 +260,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Parallel-Suite (3 classes)</span>
+                <span class="test-name">Parallel-Suite (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -469,84 +294,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.testrunners.EcommerceRunner')
-data.setCell(0, 3, 11811);
+data.setCell(0, 3, 7927);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'com.testrunners.FoodRunner')
-data.setCell(1, 3, 9184);
+data.setCell(1, 2, 'com.testrunners.EcommerceRunner')
+data.setCell(1, 3, 7051);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'com.testrunners.FoodRunner')
-data.setCell(2, 3, 8908);
+data.setCell(2, 2, 'com.testrunners.EcommerceRunner')
+data.setCell(2, 3, 6285);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'com.testrunners.FoodRunner')
-data.setCell(3, 3, 8525);
+data.setCell(3, 2, 'com.testrunners.EcommerceRunner')
+data.setCell(3, 3, 6283);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'com.testrunners.EcommerceRunner')
-data.setCell(4, 3, 8311);
+data.setCell(4, 3, 6010);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'com.testrunners.EcommerceRunner')
-data.setCell(5, 3, 8142);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'runScenario')
-data.setCell(6, 2, 'com.testrunners.FoodRunner')
-data.setCell(6, 3, 7976);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'runScenario')
-data.setCell(7, 2, 'com.testrunners.FoodRunner')
-data.setCell(7, 3, 7737);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'runScenario')
-data.setCell(8, 2, 'com.testrunners.SocialMediaRunner')
-data.setCell(8, 3, 7698);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'runScenario')
-data.setCell(9, 2, 'com.testrunners.SocialMediaRunner')
-data.setCell(9, 3, 7628);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'runScenario')
-data.setCell(10, 2, 'com.testrunners.SocialMediaRunner')
-data.setCell(10, 3, 7341);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'runScenario')
-data.setCell(11, 2, 'com.testrunners.EcommerceRunner')
-data.setCell(11, 3, 7292);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'runScenario')
-data.setCell(12, 2, 'com.testrunners.EcommerceRunner')
-data.setCell(12, 3, 7030);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'runScenario')
-data.setCell(13, 2, 'com.testrunners.EcommerceRunner')
-data.setCell(13, 3, 6804);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'runScenario')
-data.setCell(14, 2, 'com.testrunners.SocialMediaRunner')
-data.setCell(14, 3, 6704);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'runScenario')
-data.setCell(15, 2, 'com.testrunners.SocialMediaRunner')
-data.setCell(15, 3, 6483);
-data.setCell(16, 0, 16)
-data.setCell(16, 1, 'runScenario')
-data.setCell(16, 2, 'com.testrunners.SocialMediaRunner')
-data.setCell(16, 3, 6343);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'runScenario')
-data.setCell(17, 2, 'com.testrunners.FoodRunner')
-data.setCell(17, 3, 6330);
+data.setCell(5, 3, 5386);
 window.suiteTableData['CucumberSuite']= { tableData: data, tableDiv: 'times-div-CucumberSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-CucumberSuite">
               </div> <!-- times-div-CucumberSuite -->
             </div> <!-- times-div -->
@@ -572,168 +349,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@175b9425)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@6a2b953e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@175b9425)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@175b9425)</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify page title", "Amazon App")</span>
-                <span class="method-start">192 ms</span>
+                <span class="method-start">325 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Facebook App")</span>
-                <span class="method-start">192 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Swiggy App")</span>
-                <span class="method-start">192 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Facebook App")</span>
-                <span class="method-start">7894 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify page title", "Amazon App")</span>
-                <span class="method-start">8334 ms</span>
+                <span class="method-start">8252 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Swiggy App")</span>
-                <span class="method-start">9101 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Verify page title", "Amazon App")</span>
-                <span class="method-start">15140 ms</span>
+                <span class="method-start">15303 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Facebook App")</span>
-                <span class="method-start">15237 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Swiggy App")</span>
-                <span class="method-start">18285 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Google App")</span>
-                <span class="method-start">21721 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify page title", "Flipkart App")</span>
-                <span class="method-start">22171 ms</span>
+                <span class="method-start">21317 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Zomato App")</span>
-                <span class="method-start">26811 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Google App")</span>
-                <span class="method-start">28066 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify page title", "Flipkart App")</span>
-                <span class="method-start">30482 ms</span>
+                <span class="method-start">27602 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Zomato App")</span>
-                <span class="method-start">34548 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Google App")</span>
-                <span class="method-start">34771 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify page title", "Flipkart App")</span>
-                <span class="method-start">42294 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.SocialMediaRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">42401 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.FoodRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify page title", "Zomato App")</span>
-                <span class="method-start">42524 ms</span>
+                <span class="method-start">32989 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">48855 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunners.EcommerceRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">49586 ms</span>
+                <span class="method-start">39272 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

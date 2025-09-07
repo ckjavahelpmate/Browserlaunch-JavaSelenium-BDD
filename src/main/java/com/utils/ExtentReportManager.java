@@ -12,7 +12,7 @@ public class ExtentReportManager {
 	private static ThreadLocal<ExtentTest> tests = new ThreadLocal<>();
 	
 	
-	public static void createExtentReport(String suiteName) 
+	public static void createExtentReport() 
 	{
 		String path = "reports/extent-report.html";
 		ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(path);
@@ -22,7 +22,7 @@ public class ExtentReportManager {
 
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(extentSparkReporter);
-		extentReports.setSystemInfo("Executed Suite", suiteName);
+		extentReports.setSystemInfo("Executed Suite", "Automation suite");
 	}
 	
 	

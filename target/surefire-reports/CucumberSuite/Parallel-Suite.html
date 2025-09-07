@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Parallel-Suite</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 07 23:56:26 IST 2025</td>
+<td>Started on:</td><td>Mon Sep 08 03:14:24 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49603 ms)</td>
+<tr><td>Total time:</td><td>39 seconds (39642 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,35 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Amazon App"</td>
+<td><div><pre>java.lang.AssertionError: expected [Amazon.com. Spend less. Smile ] but found [Amazon.com. Spend less. Smile more.]
+	at com.genericlibrary.GenericFunctions.verifyPageTitle(GenericFunctions.java:17)
+	at com.stepdefinitions.CommonSteps.verifyPageTitleToBe(CommonSteps.java:29)
+	at ✽.Verify page title to be &quot;Amazon.com. Spend less. Smile &quot;(file:///C:/CK/CK_Personal_Projects/BrowserLaunch-JavaSelenium-BDD/src/test/resources/features/ecommerce/Amazon.feature:17)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace603484250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace603484250'><pre>java.lang.AssertionError: expected [Amazon.com. Spend less. Smile ] but found [Amazon.com. Spend less. Smile more.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.genericlibrary.GenericFunctions.verifyPageTitle(GenericFunctions.java:17)
+	at com.stepdefinitions.CommonSteps.verifyPageTitleToBe(CommonSteps.java:29)
+	at ✽.Verify page title to be &quot;Amazon.com. Spend less. Smile &quot;(file:///C:/CK/CK_Personal_Projects/BrowserLaunch-JavaSelenium-BDD/src/test/resources/features/ecommerce/Amazon.feature:17)
+</pre></div></td>
+<td>6</td>
+<td>com.testrunners.EcommerceRunner@7f3b84b8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,95 +105,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testrunners.FoodRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.FoodRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Swiggy App"</td>
-<td></td>
-<td>9</td>
-<td>com.testrunners.FoodRunner@223d2c72</td></tr>
-<tr>
 <td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Flipkart App"</td>
 <td></td>
-<td>11</td>
-<td>com.testrunners.EcommerceRunner@1189dd52</td></tr>
-<tr>
-<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Amazon App"</td>
-<td></td>
-<td>6</td>
-<td>com.testrunners.EcommerceRunner@1189dd52</td></tr>
-<tr>
-<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Amazon App"</td>
-<td></td>
-<td>8</td>
-<td>com.testrunners.EcommerceRunner@1189dd52</td></tr>
-<tr>
-<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Flipkart App"</td>
-<td></td>
-<td>7</td>
-<td>com.testrunners.EcommerceRunner@1189dd52</td></tr>
-<tr>
-<td title='com.testrunners.SocialMediaRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.SocialMediaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Facebook App"</td>
-<td></td>
-<td>7</td>
-<td>com.testrunners.SocialMediaRunner@36902638</td></tr>
-<tr>
-<td title='com.testrunners.FoodRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.FoodRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Zomato App"</td>
-<td></td>
-<td>6</td>
-<td>com.testrunners.FoodRunner@223d2c72</td></tr>
-<tr>
-<td title='com.testrunners.SocialMediaRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.SocialMediaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Google App"</td>
-<td></td>
-<td>6</td>
-<td>com.testrunners.SocialMediaRunner@36902638</td></tr>
-<tr>
-<td title='com.testrunners.FoodRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.FoodRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Zomato App"</td>
-<td></td>
-<td>7</td>
-<td>com.testrunners.FoodRunner@223d2c72</td></tr>
-<tr>
-<td title='com.testrunners.FoodRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.FoodRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Swiggy App"</td>
-<td></td>
-<td>8</td>
-<td>com.testrunners.FoodRunner@223d2c72</td></tr>
-<tr>
-<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Flipkart App"</td>
-<td></td>
-<td>8</td>
-<td>com.testrunners.EcommerceRunner@1189dd52</td></tr>
-<tr>
-<td title='com.testrunners.SocialMediaRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.SocialMediaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Facebook App"</td>
-<td></td>
-<td>6</td>
-<td>com.testrunners.SocialMediaRunner@36902638</td></tr>
-<tr>
-<td title='com.testrunners.SocialMediaRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.SocialMediaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Google App"</td>
-<td></td>
-<td>7</td>
-<td>com.testrunners.SocialMediaRunner@36902638</td></tr>
-<tr>
-<td title='com.testrunners.SocialMediaRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.SocialMediaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Facebook App"</td>
-<td></td>
-<td>7</td>
-<td>com.testrunners.SocialMediaRunner@36902638</td></tr>
-<tr>
-<td title='com.testrunners.FoodRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.FoodRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Swiggy App"</td>
-<td></td>
-<td>8</td>
-<td>com.testrunners.FoodRunner@223d2c72</td></tr>
+<td>5</td>
+<td>com.testrunners.EcommerceRunner@7f3b84b8</td></tr>
 <tr>
 <td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Amazon App"</td>
 <td></td>
 <td>7</td>
-<td>com.testrunners.EcommerceRunner@1189dd52</td></tr>
+<td>com.testrunners.EcommerceRunner@7f3b84b8</td></tr>
 <tr>
-<td title='com.testrunners.SocialMediaRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.SocialMediaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Google App"</td>
-<td></td>
-<td>6</td>
-<td>com.testrunners.SocialMediaRunner@36902638</td></tr>
-<tr>
-<td title='com.testrunners.FoodRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.FoodRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Zomato App"</td>
+<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Amazon App"</td>
 <td></td>
 <td>7</td>
-<td>com.testrunners.FoodRunner@223d2c72</td></tr>
+<td>com.testrunners.EcommerceRunner@7f3b84b8</td></tr>
+<tr>
+<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Flipkart App"</td>
+<td></td>
+<td>6</td>
+<td>com.testrunners.EcommerceRunner@7f3b84b8</td></tr>
+<tr>
+<td title='com.testrunners.EcommerceRunner.runScenario()'><b>runScenario</b><br>Test class: com.testrunners.EcommerceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify page title", "Flipkart App"</td>
+<td></td>
+<td>6</td>
+<td>com.testrunners.EcommerceRunner@7f3b84b8</td></tr>
 </table><p>
 </body>
 </html>

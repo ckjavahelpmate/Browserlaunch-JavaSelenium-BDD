@@ -7,23 +7,9 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="runScenario" invocation-numbers="2"/>
         </methods>
       </class> <!-- com.testrunners.EcommerceRunner -->
-      <class name="com.testrunners.FoodRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.testrunners.FoodRunner -->
-      <class name="com.testrunners.SocialMediaRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
-        </methods>
-      </class> <!-- com.testrunners.SocialMediaRunner -->
     </classes>
   </test> <!-- Parallel-Suite(failed) -->
 </suite> <!-- Failed suite [CucumberSuite] -->
