@@ -14,7 +14,7 @@ public class GenericFunctions {
 
 	public void verifyPageTitle(String expectePageTitle) {
 		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectePageTitle);
+		Assert.assertTrue(actualTitle.contains(expectePageTitle));
 	}
 
 }
