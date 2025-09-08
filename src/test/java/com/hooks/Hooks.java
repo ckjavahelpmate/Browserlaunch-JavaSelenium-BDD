@@ -1,11 +1,8 @@
 package com.hooks;
 
-import java.io.IOException;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.utils.CleanUtils;
 import com.utils.DriverManager;
 import com.utils.ScreenshotUtils;
@@ -31,26 +28,10 @@ public class Hooks {
 
 	@After
 	public void closeBrowser(Scenario scenario) {
-		String testcaseName = getFeatureName(scenario) + scenario.getName();
-		if (scenario.getStatus().toString().equals("FAILED")) {
-			String filename = ScreenshotUtils.takeScreenshot(testcaseName);
-			System.out.println(filename);
-			try {
-				ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(filename);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-
+//		if (scenario.getStatus().toString().equals("FAILED")) {
+		scenario.attach(ScreenshotUtils.takeScreenshot(), "image/png", "");
+//		}
 		DriverManager.closeBrowser();
-	}
-
-	private String getFeatureName(Scenario scenario) {
-		String uri = scenario.getUri().toString(); // e.g., "file:src/test/resources/features/login.feature"
-		String[] parts = uri.split("[/.]");
-		String feature = parts[parts.length - 2] + "_";
-
-		return feature;
 	}
 
 }
