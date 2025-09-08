@@ -1,0 +1,6 @@
+com\pages\GooglePage.class
+com\utils\DriverManager.class
+com\utils\DataUtility.class
+com\genericlibrary\GenericFunctions.class
+com\utils\ScreenshotUtils.class
+com\utils\CleanUtils.class

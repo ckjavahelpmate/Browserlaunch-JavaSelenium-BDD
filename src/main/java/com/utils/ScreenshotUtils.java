@@ -31,6 +31,6 @@ public class ScreenshotUtils {
 			e.printStackTrace();
 		}
 
-		return destFile.getAbsolutePath();
+		return destFile.getName();
 	}
 }

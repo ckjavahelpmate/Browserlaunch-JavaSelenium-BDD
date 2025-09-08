@@ -1,13 +1,21 @@
 package com.testrunners;
 
+import org.testng.annotations.DataProvider;
+
+import com.utils.DataUtility;
+
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(
-		features = "src/test/resources/features/socialmedia",
-		glue = { "com.stepdefinitions", "com.hooks" },
-				plugin = {"summary", "html:reports/socialmedia-report.html"},
-		monochrome = true)
+@CucumberOptions(features = "src/test/resources/features/socialmedia", glue = { "com.stepdefinitions",
+		"com.hooks" }, plugin = {  "html:reports/socialmedia-report.html",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, monochrome = true)
 public class SocialMediaRunner extends AbstractTestNGCucumberTests {
+	
+	@DataProvider(parallel = true)
+	public Object[][] scenarios() {
+		System.setProperty("dataproviderthreadcount", DataUtility.getProperty("threadCount"));
+		return super.scenarios();
+	}
 
 }

@@ -1,7 +1,9 @@
 package com.utils;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Properties;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -29,4 +31,18 @@ public class DataUtility {
 	public static void clear() {
 		scenarioData.remove();
 	}
+
+	public static String getProperty(String key) {
+		Properties properties = new Properties();
+		String value = null;
+		try {
+			properties.load(new FileInputStream("src/test/resources/environment.properties"));
+			value = properties.getProperty(key);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return value;
+	}
+
 }

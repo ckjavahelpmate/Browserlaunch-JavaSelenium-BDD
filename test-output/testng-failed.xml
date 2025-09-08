@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testrunners.EcommerceRunner">
+      <class name="com.testrunners.RegressionRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="2"/>
         </methods>
-      </class> <!-- com.testrunners.EcommerceRunner -->
+      </class> <!-- com.testrunners.RegressionRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

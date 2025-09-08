@@ -1,0 +1,8 @@
+com\stepdefinitions\CommonSteps.class
+com\testrunners\SmokeRunner.class
+com\hooks\Hooks.class
+com\testrunners\RegressionRunner.class
+com\testrunners\EcommerceRunner.class
+com\testrunners\FoodRunner.class
+com\testrunners\SocialMediaRunner.class
+com\hooks\BaseClass.class

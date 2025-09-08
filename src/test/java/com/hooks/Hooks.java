@@ -1,15 +1,16 @@
 package com.hooks;
 
+import java.io.IOException;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.utils.CleanUtils;
 import com.utils.DriverManager;
-import com.utils.ExtentReportManager;
 import com.utils.ScreenshotUtils;
 
 import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
@@ -20,45 +21,28 @@ public class Hooks {
 	public static void createReport() {
 		CleanUtils.cleanFolder("screenshots");
 		CleanUtils.cleanFolder("downloads");
-		ExtentReportManager.createExtentReport();
 	}
 
 	@Before
-	public void beforeScenario(Scenario scenario) {
+	public void beforeScenario() {
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless=new"); // mod
 		DriverManager.launchBrowser(new ChromeDriver(options));
-		System.out.println(getFeatureName(scenario) + scenario.getName() + " :: Test Started");
-		ExtentReportManager.createTest(getFeatureName(scenario) + scenario.getName());
 	}
 
 	@After
 	public void closeBrowser(Scenario scenario) {
 		String testcaseName = getFeatureName(scenario) + scenario.getName();
-		switch (scenario.getStatus()) {
-		case PASSED:
-			ExtentReportManager.pass(testcaseName + " Passed");
-			break;
-
-		case FAILED:
-			String path = ScreenshotUtils.takeScreenshot(testcaseName);
-			ExtentReportManager.addScreenshot(path);
-			ExtentReportManager.fail(testcaseName + " Failed");
-			break;
-
-		case SKIPPED:
-			ExtentReportManager.skip(testcaseName + " Skipped");
-			break;
-
-		default:
-			ExtentReportManager.skip(testcaseName + " Unknown/Other status");
+		if (scenario.getStatus().toString().equals("FAILED")) {
+			String filename = ScreenshotUtils.takeScreenshot(testcaseName);
+			System.out.println(filename);
+			try {
+				ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(filename);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
-		DriverManager.closeBrowser();
-	}
 
-	@AfterAll
-	public static void publishReport() {
-		ExtentReportManager.publishReport();
+		DriverManager.closeBrowser();
 	}
 
 	private String getFeatureName(Scenario scenario) {
